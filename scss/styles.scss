@@ -688,6 +688,16 @@ footer {
     display: none;
 }
 
+#PEY {
+    padding: 50px 15px;
+    border-bottom: 1px solid $border;
+    text-align: center;
+
+    h2 {
+        color: $heading;
+        margin-bottom: 50px;
+    }
+}
 /*
     -------------------------------
     ----- 9. Skills Styles -----
