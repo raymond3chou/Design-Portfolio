@@ -10,8 +10,8 @@ title: Raymond Chou
 email: >
 description: > # this means to ignore newlines until "baseurl:"
   Raymond Chou's Design Portfolio
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://raymond3chou.github.io/Design-Portfolio" # the base hostname & protocol for your site
+baseurl: "/Design-Portfolio" # the subpath of your site, e.g. /blog
+url: "https://raymond3chou.github.io" # the base hostname & protocol for your site
 twitter_username: > 
 github_username:  raymond3chou
 # Build settings
