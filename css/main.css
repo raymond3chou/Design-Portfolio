@@ -27,7 +27,7 @@ body {
 /* Navigation wrapper */
 
 nav {
-  background-color: var(--tw-color-blue-primary);
+  background-color: #00295c;
   padding: var(--feather-grid-xsmall);
   width: 100%;
   position: fixed;
