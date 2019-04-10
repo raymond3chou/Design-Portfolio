@@ -48,26 +48,17 @@
         <div class="nav-title">
             <!-- Link in web -->
             <a class="home-link" href="{{ site.baseurl }}/">Raymond Chou</a>
-
-            <!-- Text in mobile -->
-            <p class="home-text">Raymond Chou</p>
-            <span id="caret" class="Icon Icon--caretDown"></span>
         </div>
         <ul class="nav-menu">
-            <!-- This link only exists in mobile -->
             <li class="nav-list-item">
-                <a class="nav-link" href="{{ site.baseurl }}/">Raymond Chou</a>
+                <a class="nav-link" href="{{ site.baseurl }}/coursework">Coursework</a>
             </li>
-
             <li class="nav-list-item">
-                <a class="nav-link" href="{{ site.baseurl }}/projects">Projects</a>
+                <a class="nav-link" href="{{ site.baseurl }}/extracurricular">Extracurricular Projects</a>
             </li>
-
-            <!-- Future page: About -->
-            <!-- <li class="nav-list-item">
-                <a class="nav-link" href="{{ site.baseurl }}/about">About</a>
-            </li> -->
-
+            <li class="nav-list-item">
+                <a class="nav-link" href="{{ site.baseurl }}/capstone">Capstone</a>
+            </li>
             <li class="nav-list-item list-end">
                 <a class="nav-link" href="https://github.com/raymond3chou" target="_blank">Github</a>
             </li>
@@ -83,15 +74,22 @@
     <div class="footer">
         <div class="Grid container">
             <div class="Grid-cell footer-cell u-size1of4 footer-margin">
-                <button onclick="location.href='{{ site.baseurl }}/projects'" type="button" class="Button Button--large">Explore Projects</button>
+                <h3 class="xsmall-margin">
+                    <a class="foot-link" target="_blank" href="{{ site.baseurl }}/coursework">Coursework</a>
+                </h3>
             </div>
             <div class="Grid-cell footer-cell u-size1of4 footer-margin">
                 <h3 class="xsmall-margin">
-                    <a class="foot-link" target="_blank" href="https://about.twitter.com/">About</a>
+                    <a class="foot-link" target="_blank" href="{{ site.baseurl }}/extracurricular">Extracurricular</a>
+                </h3>
+            </div>
+            <div class="Grid-cell footer-cell u-size1of4 footer-margin">
+                <h3 class="xsmall-margin">
+                    <a class="foot-link" target="_blank" href="{{ site.baseurl }}/capstone">Capstone</a>
                 </h3>
             </div>
             <div class="Grid-cell footer-cell u-size1of4">
-                <a class="foot-link" href="">© 2019, Raymond Chou.</a>
+                <a class="foot-link" href="">© Raymond Chou, 2019.</a>
             </div>
         </div>
     </div> <!-- End of Footer -->

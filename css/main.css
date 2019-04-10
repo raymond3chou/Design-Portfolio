@@ -48,7 +48,7 @@ span.Icon--logo {
   left: var(--feather-grid-small);
 }
 
-a.home-link, a.nav-link {
+a.home-link, a.nav-link, a.nav-link-body {
   text-decoration: none;
 }
 
@@ -84,6 +84,14 @@ span.Icon--caretDown {
 
 a.nav-link:link, a.nav-link:visited {
   color: white;
+}
+
+a.nav-link-body:link, a.nav-link-body:visited {
+  color: black;
+}
+
+a.nav-link-body:hover, a.nav-link-body:active {
+  color: var(--tw-color-blue-faded);
 }
 
 a.nav-link:hover, a.nav-link:active {
