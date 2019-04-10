@@ -1,5 +1,5 @@
 ---
 layout: grid
-title: Portfolio
-permalink: /portfolio/
+title: Design-Portfolio
+permalink: /design-portfolio/
 ---

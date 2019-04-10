@@ -85,7 +85,7 @@
 				setTimeout(function() {
 					classie.add(item, 'grid__item--animate');
 					
-					<!--//UNCOMMENT FOR BLOG-->
+					// <!--//UNCOMMENT FOR BLOG-->
 					// window.location = url; 
 
 					// reveal/load content after the last element animates out (todo: wait for the last transition to finish)
