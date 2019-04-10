@@ -105,7 +105,7 @@ a.nav-link:hover, a.nav-link:active {
 /* Headers */
 
 .header, .footer {
-  background-color: var(--tw-color-blue-primary);
+  background-color: #00295c;
   color: white;
 }
 
