@@ -1,0 +1,43 @@
+---
+layout: post
+title:  Zed Styles
+date:   2016-02-18 13:05:49 -0500
+categories:  design
+permalink:   /:categories/:title.html
+thumb: zed-main.png
+tag: product design
+description: ZED Styles is a new proposed small business, providing clients with detailed, and customizable zipper accessories. ZED Styles' first product is ZED Pops, a zipper clip
+---
+
+<div class="description">
+	<header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Zed Styles</h1>
+  </header>
+	<div class="details">
+		Product Design & Business Branding
+		<br>
+		October 2014
+		<br>
+		<i>Programs:</i> Adobe Illustrator, Photoshop
+		<br>
+		<i>Platform:</i> Web & Print
+		<br>
+	</div>
+ZED Styles is a new proposed small business, providing clients with detailed, and customizable zipper accessories. ZED Styles' first product is ZED Pops, a zipper clip with customized graphics that covers the existing zipper tag. For the project, a business proposal was written, a prototype of the product was created, and mockups of the branding and website were designed.
+
+</div>
+<div class="images">
+	<img src="http://fc04.deviantart.net/fs70/f/2015/007/a/b/zed1_by_eexie-d8cyeig.png">
+	<img src="http://fc05.deviantart.net/fs70/f/2015/007/0/2/zed2_by_eexie-d8cye3n.jpg">
+	<img src="http://orig04.deviantart.net/c767/f/2016/081/3/7/cover__1__by_eexie-d9w2gz1.png">
+	<img src="http://fc04.deviantart.net/fs71/f/2015/007/a/b/zed3_by_eexie-d8cye39.jpg">
+</div>
+
+<!-- {% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %} -->
+

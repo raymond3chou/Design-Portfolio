@@ -1,0 +1,61 @@
+<div id="theSidebar" class="sidebar">
+
+    <a href="{{ site.baseurl }}/#header"><h1><span>EMMA</span>XIE</h1></a>
+    <nav class="related">
+      <div class="menu-item">
+        <a href="#"><img src="/images/menu-icon.png"></a>
+        <div class="sub-menu">
+            <img src="/images/sidebar-logo.png"></a>
+
+            <h2 class="title"> <br>EMMA XIE<br></h2>
+            <hr>
+            <a href="{{ site.baseurl }}/portfolio/">PORTFOLIO</a>
+            <a href="{{ site.baseurl }}/#about">ABOUT</a>
+            <a href="{{ site.baseurl }}/resume.pdf" target="_blank">RESUME</a>
+            <a href="{{ site.baseurl }}/blog/">BLOG</a>
+        </div>
+      </div>
+      <div class="menu-item">
+        <a href="{{ site.baseurl }}/portfolio/"><img src="/images/portfolio-icon.png"/></a>
+        <div class="sub-menu">
+            
+            <img src="/images/sidebar-portfolio.png"></a>
+
+            <h2 class="title"> <br>PORTFOLIO<br></h2>
+            <hr>
+            <a href="{{ site.baseurl }}/portfolio/#tron">ENGINEERING</a>
+            <a href="{{ site.baseurl }}/portfolio/#design">DESIGN</a>
+            <a href="{{ site.baseurl }}/portfolio/#art" >ART</a>
+            
+        </div>
+      </div>
+      <div class="menu-item">
+        <a href="#"><img src="/images/contact-icon.png"/></a>
+        <div class="sub-menu contact">
+            <img src="/images/sidebar-logo.png"></a>
+
+            <h2 class="title"> <br>CONTACT<br></h2>
+            <p><i>Say hi!</i></p>
+            <hr>
+            
+            <a href="mailto:emma.xie@uwaterloo.ca"><i>emma.xie@uwaterloo.ca</i><br><br><br></p>
+            <a href="https://github.com/eexie" target="_blank">GITHUB</a> | <a href="http://devpost.com/exme"target="_blank">DEVPOST</a> | <a href="https://ca.linkedin.com/in/eexie"target="_blank">LINKEDIN</a> | <a href="https://twitter.com/_eexie"target="_blank">TWITTER</a>
+
+        </div>
+      </div>
+    </nav>
+    <nav class="site-nav">
+      
+
+      <div class="trigger">
+        {% for my_page in site.pages %}
+          {% if my_page.title %}
+          <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </nav>
+
+  </div>
+
+</div>

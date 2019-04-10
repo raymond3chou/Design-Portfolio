@@ -1,0 +1,43 @@
+---
+layout: post
+title:  Good Morning
+date:   2016-02-18 13:05:49 -0500
+categories:  art
+permalink:   /:categories/:title.html
+thumb: day-main.png
+tag: traditional illustration
+description: Self portrait inspired by the song "A Day in the Life" by The Beatles
+---
+
+<div class="description">
+	<header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Good Morning</h1>
+  </header>
+	<div class="details">
+		Mixed Media Illustration
+		<br>
+		June 2013
+		<br>
+		<i>Materials:</i> Watercolour, ink, oil pastels
+		<br>
+		<i>Dimensions:</i> 18" x 24"
+		<br>
+	</div>
+Self portrait inspired by the song "A Day in the Life" by The Beatles
+
+
+</div>
+<div class="images">
+	<img src="http://orig00.deviantart.net/64d5/f/2013/152/7/3/good_morning_by_xrabbii_luvx-d67gchm.jpg">
+	<img src="http://orig00.deviantart.net/9f7f/f/2013/152/c/a/_good_morning__details_ii_by_xrabbii_luvx-d67gczd.jpg">
+	<img src="http://orig13.deviantart.net/5f56/f/2013/152/1/c/_good_morning__details_i_by_xrabbii_luvx-d67gcsz.jpg">
+</div>
+
+<!-- {% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %} -->
+

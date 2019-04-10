@@ -1,0 +1,47 @@
+---
+layout: default
+---
+<div class="topbar">
+  {% if page.previous and page.previous.categories contains 'blog' %}
+  <a href="{{page.previous.url}}">&larr;</a>&nbsp;&nbsp;&nbsp;&nbsp;
+  {% endif %}
+  {% if page.previous and page.next %}
+  
+  {% endif %}
+  <a class="toPort " href="{{site.baseurl}}/blog"><img src="{{site.baseurl}}/images/topbar-blog.png"/><div class="backText">ALL ENTRIES</div></a>
+  {% if page.next %}
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="{{page.next.url}}" style="margin-left:-5px">&rarr;</a>
+  {% endif %}
+</div>
+<article class="content__item content__item--show">
+  <h2 class="title title--full">{{ page.title }}</h2>
+  <div class="meta meta--full">
+    <span class="meta__date"><i class="fa fa-calendar-o"></i> {{ page.date | date_to_string }}</span>
+    <span class="meta__tags">{{page.tags}}</span>
+  </div>
+  {{ content }}
+<!-- <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+ -->
+</article>
+<!-- <article class="post content__it" itemscope itemtype="http://schema.org/BlogPosting">
+<article class="content__item post">
+	<h2 class="title title--full">{{ page.title }}</h2>
+	<div class="meta meta--full">
+		<img class="meta__avatar" src="img/authors/4.png" alt="author04" />
+		<span class="meta__date"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time></span>
+		<span class="meta__reading-time"> {{ page.length }} read</span>
+	</div>
+	 <div class="post-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+</article> -->

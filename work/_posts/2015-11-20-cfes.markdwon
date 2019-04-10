@@ -1,0 +1,53 @@
+---
+layout: post
+title: CFES / FCEG
+date:   2015-11-20 13:05:49 -0500
+categories:  design 
+tag: web & branding
+permalink:   /:categories/:title.html
+thumb: cfes-main.png
+featured: true 
+description: The CFES is the representative national student organization of engineering students across Canada.
+---
+
+<div class="description">
+	<header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Canadian Federation of Engineering Students (CFES)</h1>
+    <a href="http://cfes.ca/" target="_blank"> cfes.ca </a>
+  </header>
+	<div class="details">
+		Web-development, marketing design, print media, branding design
+		<br>
+		June 2014-July 2015
+		<br>
+		<i>Tools:</i> Wordpress, Google Analytics, Facebook Analytics
+        <br>
+		<i>Programs:</i> Adobe Illustrator, InDesign, Photoshop
+		<br>
+	</div>
+
+
+<br><br>
+
+
+
+<br><br>
+
+
+
+</div>
+<div class="images">
+	<img src="{{site.baseurl}}/images/work/se/1.png">
+	<img src="{{site.baseurl}}/images/work/se/2.png">
+	<img src="{{site.baseurl}}/images/work/se/3.png">
+	<img src="{{site.baseurl}}/images/work/se/5.png">
+</div>
+<!-- {% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %} -->
+
+

@@ -1,0 +1,42 @@
+---
+layout: post
+title:  CIK Media
+date:   2016-02-18 13:05:49 -0500
+categories:  uncategorized
+permalink:   /:categories/:title.html
+thumb: cik-main.png
+tag: branding & marketing
+
+---
+
+<div class="description">
+	<header class="post-header">
+    <h1 class="post-title" itemprop="name headline">CIK Telecom</h1>
+  </header>
+	<div class="details">
+		Marketing design, print media, branding design, mobile UX
+		<br>
+		Mar 2015-August 2015
+		<br>
+		Programs: various
+		<br>
+	</div>
+CIK Telecom is the largest Internet and TV service provider in Canada among the Chinese-Canadian community. In 2015, CIK launched lehuo.ca, a website and mobile app providing great deals and promotions from businesses across Toronto. As an intern, I was responsible for creating ads and coupons, as well as branding material such as logos for many of these businesses. I also contributed to redesigns of the website and the mobile application.
+</div>
+<div class="images">
+	<img src="http://orig09.deviantart.net/2ad0/f/2015/202/2/5/1_by_eexie-d92a01v.png">
+	<img src="http://orig00.deviantart.net/7810/f/2015/202/d/6/2_by_eexie-d929zy1.jpg">
+	<img src="http://orig06.deviantart.net/2c99/f/2015/202/4/c/3_by_eexie-d929zgi.png">
+	<img src="http://orig06.deviantart.net/5bda/f/2015/202/9/2/4_by_eexie-d929zea.png">
+</div>
+<!-- {% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %} -->
+
+
+
+[science-expo]: http://science-expo.org/

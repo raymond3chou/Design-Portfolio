@@ -1,0 +1,44 @@
+---
+layout: post
+title:  Nickel
+date:   2016-02-18 13:05:49 -0500
+categories:  art
+permalink:   /:categories/:title.html
+thumb: nickel-main.png
+tag: mixed media
+description: Inspired by "If I Had a Nickel" by B.J. Novak, from his debut novel "One More Thing"
+---
+
+<div class="description">
+	<header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Nickel</h1>
+  </header>
+	<div class="details">
+		Mixed Media
+		<br>
+		January 2015
+		<br>
+		<i>Materials:</i> Plexiglass, acrylic, watercolour, ink, charcoal
+		<br>
+		<i>Dimensions:</i> 25" x 25"
+		<br>
+	</div>
+A plexiglass piece inspired by "If I Had a Nickel" by B.J. Novak, from his debut novel "One More Thing"
+
+
+</div>
+<div class="images">
+	<img src="http://orig13.deviantart.net/ff79/f/2016/081/f/f/cover_by_eexie-d9w2s8k.jpg">
+	<img src="http://orig13.deviantart.net/5ed3/f/2015/015/3/0/n2_by_eexie-d8e1ixa.jpg">
+	<img src="http://orig07.deviantart.net/bef7/f/2015/015/0/6/n1_by_eexie-d8e1iy5.jpg">
+	<img src="http://orig03.deviantart.net/a8e3/f/2015/015/d/b/n3_by_eexie-d8e1kac.jpg">
+</div>
+
+<!-- {% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %} -->
+

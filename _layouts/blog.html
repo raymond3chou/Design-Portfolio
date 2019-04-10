@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	{% include head.html %}
+	<body>
+		{% include sidebar.html %}
+	    <div class="container">
+	    	<div class="main"id="theGrid" >
+				<section class="grid">
+					<div class="page-meta" id = "hardware">
+						<h3 ><b>The Blog</b></h3>
+						<p>Random thoughts, adventures, and photographic experiments</p>
+						
+					</div>
+					{% for post in site.categories.blog %}
+						{% if post.thumb %}
+						<a class="grid__item" href="{{ post.url }}" style="background-image: url({{ site.baseurl }}/images/work/{{post.thumb}})">
+							<div class="overlay ">
+								<div class="blog-preview">
+									<h2 class="title title--preview">{{ post.title }}</h2>
+									<div class="loader"></div>
+									<br><br><br><br>
+									<em>{{post.excerpt | strip_html | truncatewords:15 }}</em>
+									<br><br><br>
+									<div class="meta meta--preview">
+										<span class="meta__date"><i class="fa fa-calendar-o"></i> {{ post.date | date_to_string}}</span>
+										<span class="meta__tags">{{post.tags}}</span>
+									</div>
+								</div>
+							</div>
+							
+						</a>
+						{% else %}
+
+						<a class="grid__item" href="{{ post.url }}" >
+							<div class="blog-preview">
+								<h2 class="title title--preview"> {{ post.title }}</h2>
+								<br>
+								<div class="loader"></div>
+								<br>
+								<em>{{post.excerpt | strip_html | truncatewords:15 }}</em>
+								<br><br>
+								<div class="meta meta--preview">
+									<span class="meta__date"><i class="fa fa-calendar-o"></i> {{ post.date | date_to_string}}</span>
+									<span class="meta__tags">{{post.tags}}</span>
+								</div>
+							</div>
+						</a>
+						{% endif %}
+					{% endfor %}
+				</section>
+			</div>
+		</div><!-- /container -->
+		<script src="/js/classie.js"></script>
+		<script src="/js/main.js"></script>
+	</body>
+</html>

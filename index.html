@@ -1,0 +1,125 @@
+---
+layout: default
+---
+
+<div class="home scene_element scene_element--fadein">
+
+  <div class="header" id="header">
+    <div class="header-inner">
+      <img src="/images/logo.png">
+      <h1>EMMA XIE</h1>
+      <hr width="150px" style="margin:20px auto;">
+      <p> I'm a 3rd year <b>Mechatronics Engineering</b> student at the University of Waterloo. <br>Take a look around <i><a href="#portfolio">my portfolio</a></i>, read more <i><a href="#about">about me</a></i>, and <i><a href="#contact">say hello!</a></i></p>
+      <br><br>
+      <a class="action" href="#portfolio">PORTFOLIO</a>
+      <a class="action" href="{{ site.baseurl }}/resume.pdf" target="_blank">&nbsp;&nbsp;RESUME&nbsp;&nbsp;</a>
+    </div>
+  </div>
+
+  <div class="section" id="portfolio">
+    <h3 class="title" href="#">PORTFOLIO</h3>
+    <div id="theGrid">
+      <section class="grid">
+        {% for post in site.posts  %}
+          {% if post.featured == true %}
+          <a class="grid__item" href="{{ post.url }}" style="background-image: url({{ site.baseurl }}/images/work/{{post.thumb}})">
+            <div class="overlay">
+              <h2 class="title title--preview">{{ post.title }}</h2>
+              <div class="loader"></div>
+              <p><i> {{ post.tag}} </i></p>
+              <p class="short-description">{{ post.description | truncatewords:15   }}</p>
+              <span class="category">Read More &nbsp &rarr;<br><br><br></span>
+            </div>
+          </a>
+          {% endif %}
+        {% endfor %}
+      <a class="grid__title" href="{{ site.baseurl }}/portfolio/">
+        <h2 class="title title--preview"><br><br>View All</h2>
+        <div class="loader"></div>
+        <span class="category">&rarr;<br><br><br></span>
+      </a>
+      </section>
+    </div>
+  </div>  
+
+  <div class="section" id="about">
+    <h3 class="title" href="#">ABOUT</h3>
+    <div class="about">
+      <div class="about-inner">
+        <div class="image"></div>
+        <div class="side text">
+            <p>I am a Toronto-based student studying Mechatronics Engineering at the University of Waterloo (class of 2020). 
+                My interests and experiences vary from hardware prototyping, web development, and virtual reality, to robotics and graphic design. 
+                I have special interests in interactive technological experiences and realising the role engineering plays in society. 
+                <br><br>I am currently seeking an <strong>8-month coop/internship starting January 2019.</strong> 
+          <br>
+          <br>
+
+        <a class="action" href="{{ site.baseurl }}/resume.pdf"target="_blank">&nbsp;&nbsp;VIEW RESUME&nbsp;&nbsp;</a>
+        </div>
+        
+      </div>
+    </div>
+  </div> 
+  <div class="section" id="blog">
+    <h3 class="title" href="#">BLOG</h3>
+    <div id="theGrid" >
+      <section class="grid">
+          {% for post in site.categories.blog limit:3 %}
+            {% if post.thumb %}
+            <a class="grid__item" href="{{ post.url }}" style="background-image: url({{ site.baseurl }}/images/work/{{post.thumb}})">
+              <div class="overlay ">
+                <div class="blog-preview">
+                  <h2 class="title title--preview">{{ post.title }}</h2>
+                  <div class="loader"></div>
+                  <br><br><br><br>
+                  <em>{{post.excerpt | strip_html | truncatewords:10 }}</em>
+                  <br><br><br>
+                  <div class="meta meta--preview">
+                    <span class="meta__date"><i class="fa fa-calendar-o"></i> {{ post.date | date_to_string}}</span>
+                    <span class="meta__tags">{{post.tags}}</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            {% else %}
+            <a class="grid__item" href="{{ post.url }}" >
+              <div class="blog-preview">
+                <br><br><br>
+                <h2 class="title title--preview"> {{ post.title }}</h2>
+                <br><br><br>
+                <div class="loader"></div>
+                <br><br>
+                <em>{{post.excerpt | strip_html | truncatewords:10 }}</em>
+                <br><br><br>
+                <div class="meta meta--preview">
+                  <span class="meta__date"><i class="fa fa-calendar-o"></i> {{ post.date | date_to_string}}</span>
+                  <span class="meta__tags">{{post.tags}}</span>
+                </div>
+              </div>
+            </a>
+            {% endif %}
+          {% endfor %}
+          <a class="grid__title" href="{{ site.baseurl }}/blog/">
+            <h2 class="title title--preview"><br><br>Read All</h2>
+            <div class="loader"></div>
+            <span class="category">&rarr;<br><br><br><br></span>
+            
+          </a>
+      </section>
+      <br><br>
+    </div>
+  </div>  
+-->
+  <div class="footer" id="contact">
+     <h3 class="title" href="#">CONTACT</h3>
+          <p><br><i>Say hi!</i> I love meeting new people and learning new things. </i><br><h4><a href="mailto:emma.xie@uwaterloo.ca"><i>emma.xie@uwaterloo.ca</h4  ><br><br>
+            <hr>
+            
+            
+            
+            <a href="https://github.com/eexie" target="_blank">GITHUB</a> | <a href="http://devpost.com/exme"target="_blank">DEVPOST</a> | <a href="https://ca.linkedin.com/in/eexie"target="_blank">LINKEDIN</a> | <a href="https://twitter.com/_eexie"target="_blank">TWITTER</a>
+  </div>   
+
+</div>
+

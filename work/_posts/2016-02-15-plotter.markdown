@@ -1,0 +1,55 @@
+---
+layout: post
+title:  Dry Erase Plotter
+date:   2016-02-18 13:05:49 -0500
+categories:  hardware
+tag: prototyping
+permalink:   /:categories/:title
+thumb: plotter-main.png
+featured: true
+description: Dry Erase Plotter is a low energy alternative to the excessive monitors financial companies use to display market data
+---
+
+<div class="description">
+	<header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Dry Erase Plotter</h1>
+    <a href="http://devpost.com/software/stock-market-plotter" target="_blank"> Devpost Project Page </a> 
+  </header>
+	<div class="details">
+		Mechanical and circuitry design
+		<br>
+		Oct 2015
+		<br>
+		<i>Built With</i>: Raspberry Pi, Arduino, C++, Python, Capital One API, Market On Demand API
+		<br>
+	</div>
+
+Built at BostonHacks 2015, winner of Capital One API Award
+<br><br>
+Dry Erese Plotter is a low energy alternative to the excessive monitors financial companies use to display market data. The setup is a dry erase board with fishing wires attaching two stepper motors on the corners to a piece of plastic. The plastic acts as the mount to the dry erase marker, whose motions can be controlled by the motors via an Arduino with stock market API data sent through the Raspberry Pi.
+
+<br><br>
+I contributed in designing and implementing mechanical build of the setup, and setting up the connection between the Arduino and Raspberry Pi. I also soldered components together in the electrical circuitry.
+
+<br>
+
+
+
+
+</div>
+<div class="images">
+	<iframe width="100%" height="500" src="https://www.youtube.com/embed/uCkmXdBTv48" frameborder="0" allowfullscreen></iframe>
+	<img src="http://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/320/630/datas/gallery.jpg">
+	<img src="http://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/320/631/datas/gallery.jpg">
+	<img src="http://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/320/632/datas/gallery.jpg">
+	<img src="http://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/320/633/datas/gallery.jpg">
+</div>
+<!-- {% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %} -->
+
+

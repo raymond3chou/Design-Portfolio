@@ -1,0 +1,43 @@
+---
+layout: post
+title:  Wirkn
+date:   2016-02-18 13:05:49 -0500
+categories:  design
+permalink:   /:categories/:title.html
+thumb: wirkn-main.png
+tag: branding & UX
+description: A job search app startup. My projects on the team included creating general branding promotional graphics, Google and Facebook ads, hiring ads for our connected employers, social media content, newsletter design
+---
+
+<div class="description">
+	<header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Wirkn</h1>
+  </header>
+	<div class="details">
+		Marketing design, print media, branding design, web-development
+		<br>
+		Jan 2015-August 2015
+		<br>
+		<i>Programs:</i> various
+		<br>
+	</div>
+Wirkn is a mobile app startup from the heart of Toronto that provides an alternative to job search with video applications. My projects include creating general branding promotional graphics, Google and Facebook ads, hiring ads for our connected employers, social media content, newsletter design, and infographics.
+<br><a href="www.wirkn.com" target="_blank">Wirkn Website</a>
+
+</div>
+<div class="images">
+	<img src="http://orig12.deviantart.net/5fe6/f/2015/202/1/9/1_by_eexie-d927va2.png">
+	<img src="http://orig00.deviantart.net/0364/f/2015/202/2/d/2_by_eexie-d927v2a.png">
+	<img src="http://orig15.deviantart.net/b0d6/f/2015/208/9/a/3_by_eexie-d9311cf.png">
+	<img src="http://orig02.deviantart.net/cd40/f/2015/202/4/0/3_by_eexie-d927tky.png">
+	<img src="http://orig08.deviantart.net/439e/f/2015/202/9/f/4_by_eexie-d927sk0.png">
+</div>
+
+<!-- {% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %} -->
+
